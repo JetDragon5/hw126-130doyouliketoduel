@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--Refer to this when making a new HTML document-->
+<html lang="en">
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    
+   <title>DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+    </head>
+  <body background="djset.jpg">
+    <center>
+        <h3 class="btn btn-warning heading">DJ WEB APP
+            <br>
+            <span class="note">NOTE - Move your wrists up and down, whichever wrist is higher will be the song that plays.</span>
+        </h3>
+       
+        
+        <div class="divSpeed">
+          <img src="disk.gif" class="divSpeedImg">
+          <br>
+          <h3 class="btn btn-danger" id="speed">Speed</h3>
+          <input type="range" min="-200" max="200" value="100" class="slider" id="speedSlider" onchange="changeSpeed()">
+        </div>
+
+
+        
+
+        <div class="divVolume">
+          <img src="disk.gif" class="divVolumeImg">
+          <br>
+          <h3 class="btn btn-danger" id="volume">Volume</h3>
+          <input type="range" min="-0" max="200" value="50" class="slider" id="volumeSlider" onchange="changeVolume()">
+        </div>
+
+        
+        <div class="divVolume" style="margin-right: 25%;">
+          <img src="disk.gif" class="divVolumeImg">
+          <br>
+          <h3 class="btn btn-danger" id="volume">Song ()</h3>
+          <input type="range" min="1" max="3" value="2" class="slider" id="dudeSlider" onchange="changeDude()">
+        </div>
+
+
+
+        
+
+      
+
+        
+
+        
+    </center>
+ 
+    
+  </body>
+
+
+
+
+
+<!--This is a comment. Comments are not displayed in the browser-->
+<script src="main.js"> </script>
+</html>
