@@ -16,7 +16,7 @@ var rightWristX = 0;
 var rightWristY = 0;
 
 function preload(){
-    song1 = loadSound("duelofthefates.wav");
+    song1 = loadSound("duelofthefates (1).mp3");
     song2 = loadSound("doyoulikeairconditioning.mp3")
 
     speedIcon = loadImage("duelofthefates.png");
